@@ -21,7 +21,7 @@ const Donate = () => {
           <div className="py-16 bg-gray-50">
             <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-10 px-10">
               {/* QR Code Donation */}
-              {/* <motion.div
+              <motion.div
                 className="bg-white shadow-xl rounded-lg p-6 text-center transform hover:-translate-y-2 transition-all duration-300"
                 initial={{ opacity: 0, scale: 0.9 }}
                 animate={{ opacity: 1, scale: 1 }}
@@ -39,12 +39,12 @@ const Donate = () => {
                   donation conveniently.
                 </p>
                 <motion.img
-                  src="/images/qr-code.png"
+                  src="/images/qrcode.jpeg"
                   alt="Scan to Donate QR Code"
                   className="w-56 h-56 mx-auto rounded-lg shadow-md"
                   whileHover={{ scale: 1.1, rotate: 2 }}
                 />
-              </motion.div> */}
+              </motion.div>
 
               {/* Direct Donation */}
               <motion.div
@@ -58,7 +58,7 @@ const Donate = () => {
                   className="text-3xl font-bold mb-4"
                   whileHover={{ color: "#22c55e" }}
                 >
-                  Donation
+                  Direct Donation
                 </motion.h2>
                 <p className="text-lg leading-relaxed text-gray-600 mb-6">
                   Prefer to donate directly? Use the details below for bank
@@ -74,6 +74,36 @@ const Donate = () => {
               </motion.div>
             </div>
           </div>
+
+          {/* 80G Certificate Section */}
+          <section className="py-16 bg-white">
+            <div className="max-w-6xl mx-auto px-6 text-center">
+
+              <h2 className="text-3xl font-bold mb-6 text-gray-800">
+                80G Tax Exemption Certificate
+              </h2>
+
+              <p className="text-lg text-gray-600 mb-8">
+                Donations made to the World Environment Organization are eligible for
+                tax exemption under Section 80G of the Income Tax Act.
+              </p>
+
+              <div className="flex justify-center">
+                <motion.img
+                  src="/images/form80g.jpeg"
+                  alt="80G Tax Exemption Certificate"
+                  className="max-w-md rounded-lg shadow-lg"
+                  whileHover={{ scale: 1.05 }}
+                />
+              </div>
+
+              <p className="text-sm text-gray-500 mt-4">
+                Your generous support not only helps protect the environment but also
+                provides tax benefits under the 80G provision.
+              </p>
+
+            </div>
+          </section>
 
           {/* Donation Options Section */}
           <section className="py-16 px-4 sm:px-8">
