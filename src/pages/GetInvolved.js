@@ -62,7 +62,7 @@ const GetInvolved = () => {
                     Make a direct impact by volunteering your time and skills. From tree planting to community education, your hands-on involvement helps create lasting environmental change.
                   </p>
                   <div className="mt-4 flex justify-center">
-                    <Link to="/contact-us">
+                    <Link to="/register">
                       <Button 
                         variant="primary" 
                         size="large"

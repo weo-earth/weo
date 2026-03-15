@@ -9,12 +9,12 @@ import {
   staggerContainer,
   cardHoverAnimation,
   sectionFadeIn,
-  iconRotationAnimation
+  // iconRotationAnimation
 } from "../components/animations";
 
 import {
-  FaLeaf,
-  FaTree,
+  // FaLeaf,
+  // FaTree,
   FaSeedling,
   FaHandsHelping,
   FaFlask,

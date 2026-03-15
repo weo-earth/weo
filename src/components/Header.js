@@ -204,6 +204,14 @@ const Header = () => {
           </Link>
         </div>
 
+        <div className="hidden md:block">
+          <Link to="/survey">
+            <button className="bg-gradient-to-r from-[#00aaff] to-[#00ff77] text-white py-3 px-8 rounded-full text-[14px] font-bold hover:from-[#0099cc] hover:to-[#00cc66] transition-all duration-300 shadow-lg hover:shadow-xl">
+              Survey
+            </button>
+          </Link>
+        </div>
+
         {/* Hamburger Icon (Mobile) */}
         <div
           className="md:hidden flex items-center cursor-pointer relative"
@@ -346,6 +354,12 @@ const Header = () => {
         <Link to="/donate">
           <button className="bg-gradient-to-r from-[#00aaff] to-[#00ff77] text-white py-3 px-8 rounded-full text-[14px] font-bold hover:bg-green-600 transition-all duration-300">
             Donate
+          </button>
+        </Link>
+
+        <Link to="/survey">
+          <button className="bg-gradient-to-r from-[#00aaff] to-[#00ff77] text-white py-3 px-8 rounded-full text-[14px] font-bold hover:bg-green-600 transition-all duration-300">
+            Survey
           </button>
         </Link>
       </div>

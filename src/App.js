@@ -16,6 +16,8 @@ import ContactUs from "./pages/ContactUs";
 import PrivacyPolicy from "./pages/PrivacyPolicy";
 import Gallery from "./pages/Gallery";
 import MinuteADayRead from "./pages/minuteaday";
+import EnvironmentSurvey from "./pages/survey";
+import Registration from "./pages/Registration";
 // import TelanganaAQIDataPage from "./pages/TelanganaAQIDataPage";
 
 // ScrollToTop Component to reset scroll position on route change
@@ -125,6 +127,8 @@ const AnimatedRoutes = () => {
               </PageWrapper>
             }
           />
+          <Route path="/survey" element={<EnvironmentSurvey />} />
+          <Route path="/register" element={<Registration />} />
         </Routes>
       </AnimatePresence>
     </>
